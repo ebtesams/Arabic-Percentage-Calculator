@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		483A7DDD225D042C0068BBB3 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A7DDC225D042C0068BBB3 /* SlideInTransition.swift */; };
+		483AC0C52210BFCB00FFD30C /* FastSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 483AC0C22210BFCB00FFD30C /* FastSegue.m */; };
+		483AC0C62210BFCB00FFD30C /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483AC0C42210BFCB00FFD30C /* InfoViewController.m */; };
+		483AC0C82210C42B00FFD30C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483AC0C72210C42B00FFD30C /* MenuViewController.swift */; };
+		4847131721EC9DE200C69DA4 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131621EC9DE200C69DA4 /* ViewController3.swift */; };
+		4847131921ECA41F00C69DA4 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131821ECA41F00C69DA4 /* ViewController4.swift */; };
+		4847131B21ECA42E00C69DA4 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131A21ECA42E00C69DA4 /* ViewController5.swift */; };
+		4847131D21ECA43A00C69DA4 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131C21ECA43A00C69DA4 /* ViewController6.swift */; };
+		4847131F21ECA44500C69DA4 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131E21ECA44500C69DA4 /* ViewController7.swift */; };
+		4847132121ECA45300C69DA4 /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847132021ECA45300C69DA4 /* ViewController8.swift */; };
+		488CA48C225C2EA10088168A /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488CA48B225C2EA10088168A /* ViewController0.swift */; };
+		48A6EB68225AB38900FA5543 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6EB67225AB38900FA5543 /* Functions.swift */; };
+		48A6EB6C225AC92900FA5543 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6EB6B225AC92900FA5543 /* Extension.swift */; };
+		48AEFCDE226506D8002F0D9A /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFCDD226506D8002F0D9A /* customTextField.swift */; };
+		48C2E79F21EBBA43005754A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2E79E21EBBA43005754A2 /* AppDelegate.swift */; };
+		48C2E7A121EBBA43005754A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2E7A021EBBA43005754A2 /* HomeViewController.swift */; };
+		48C2E7A421EBBA43005754A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C2E7A221EBBA43005754A2 /* Main.storyboard */; };
+		48C2E7A621EBBA44005754A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C2E7A521EBBA44005754A2 /* Assets.xcassets */; };
+		48C2E7A921EBBA44005754A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C2E7A721EBBA44005754A2 /* LaunchScreen.storyboard */; };
+		48C2E7B121EBBFF8005754A2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2E7B021EBBFF8005754A2 /* TableViewCell.swift */; };
+		48C2E7B321EBC410005754A2 /* Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2E7B221EBC410005754A2 /* Percentages.swift */; };
+		48C2E7B521EBE7FA005754A2 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2E7B421EBE7FA005754A2 /* ViewController1.swift */; };
+		48C2E7B721EBE811005754A2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2E7B621EBE811005754A2 /* ViewController2.swift */; };
+		48F1B8292238551600B4FCD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48F1B8282238551500B4FCD5 /* GoogleService-Info.plist */; };
+		B4D2C7A5228381BF5A110BC5 /* Pods_Arabic_Percentage_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3587B4E71D924387D54382 /* Pods_Arabic_Percentage_Calculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		483A7DDC225D042C0068BBB3 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		483AC0C02210BFCA00FFD30C /* Arabic Percentage Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arabic Percentage Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		483AC0C12210BFCB00FFD30C /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = "../../../../Downloads/LeftToRightSegue-master-2/LeftToRightSegue/InfoViewController.h"; sourceTree = "<group>"; };
+		483AC0C22210BFCB00FFD30C /* FastSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FastSegue.m; path = "../../../../Downloads/LeftToRightSegue-master-2/LeftToRightSegue/FastSegue.m"; sourceTree = "<group>"; };
+		483AC0C32210BFCB00FFD30C /* FastSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FastSegue.h; path = "../../../../Downloads/LeftToRightSegue-master-2/LeftToRightSegue/FastSegue.h"; sourceTree = "<group>"; };
+		483AC0C42210BFCB00FFD30C /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = "../../../../Downloads/LeftToRightSegue-master-2/LeftToRightSegue/InfoViewController.m"; sourceTree = "<group>"; };
+		483AC0C72210C42B00FFD30C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4847131621EC9DE200C69DA4 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		4847131821ECA41F00C69DA4 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		4847131A21ECA42E00C69DA4 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		4847131C21ECA43A00C69DA4 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		4847131E21ECA44500C69DA4 /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		4847132021ECA45300C69DA4 /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		488CA48B225C2EA10088168A /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
+		48A6EB67225AB38900FA5543 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		48A6EB6B225AC92900FA5543 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		48AEFCDD226506D8002F0D9A /* customTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
+		48C2E79B21EBBA43005754A2 /* Arabic Percentage Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arabic Percentage Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C2E79E21EBBA43005754A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48C2E7A021EBBA43005754A2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		48C2E7A321EBBA43005754A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C2E7A521EBBA44005754A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48C2E7A821EBBA44005754A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48C2E7AA21EBBA44005754A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C2E7B021EBBFF8005754A2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		48C2E7B221EBC410005754A2 /* Percentages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Percentages.swift; sourceTree = "<group>"; };
+		48C2E7B421EBE7FA005754A2 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		48C2E7B621EBE811005754A2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		48F1B8282238551500B4FCD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A995A04A1BED9AB6C28054F8 /* Pods-Arabic Percentage Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arabic Percentage Calculator.release.xcconfig"; path = "Target Support Files/Pods-Arabic Percentage Calculator/Pods-Arabic Percentage Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		CC6689F638220F0C90E968CD /* Pods-Arabic Percentage Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arabic Percentage Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Arabic Percentage Calculator/Pods-Arabic Percentage Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		FE3587B4E71D924387D54382 /* Pods_Arabic_Percentage_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arabic_Percentage_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C2E79821EBBA43005754A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D2C7A5228381BF5A110BC5 /* Pods_Arabic_Percentage_Calculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E16CF0DACACFDFBB0A05D94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3587B4E71D924387D54382 /* Pods_Arabic_Percentage_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		482F7E9521EE60FC00BDB863 /* AllViewController */ = {
+			isa = PBXGroup;
+			children = (
+				488CA48B225C2EA10088168A /* ViewController0.swift */,
+				48C2E7B421EBE7FA005754A2 /* ViewController1.swift */,
+				48C2E7B621EBE811005754A2 /* ViewController2.swift */,
+				4847131621EC9DE200C69DA4 /* ViewController3.swift */,
+				4847131821ECA41F00C69DA4 /* ViewController4.swift */,
+				4847131A21ECA42E00C69DA4 /* ViewController5.swift */,
+				4847131C21ECA43A00C69DA4 /* ViewController6.swift */,
+				4847131E21ECA44500C69DA4 /* ViewController7.swift */,
+				4847132021ECA45300C69DA4 /* ViewController8.swift */,
+			);
+			path = AllViewController;
+			sourceTree = "<group>";
+		};
+		48C2E79221EBBA43005754A2 = {
+			isa = PBXGroup;
+			children = (
+				48C2E79D21EBBA43005754A2 /* Arabic Percentage Calculator */,
+				48C2E79C21EBBA43005754A2 /* Products */,
+				601F8FAABB74EB31B2DAEF23 /* Pods */,
+				2E16CF0DACACFDFBB0A05D94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48C2E79C21EBBA43005754A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C2E79B21EBBA43005754A2 /* Arabic Percentage Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C2E79D21EBBA43005754A2 /* Arabic Percentage Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				483A7DDC225D042C0068BBB3 /* SlideInTransition.swift */,
+				48C2E79E21EBBA43005754A2 /* AppDelegate.swift */,
+				48A6EB6B225AC92900FA5543 /* Extension.swift */,
+				48A6EB67225AB38900FA5543 /* Functions.swift */,
+				48C2E7A221EBBA43005754A2 /* Main.storyboard */,
+				48AEFCDD226506D8002F0D9A /* customTextField.swift */,
+				482F7E9521EE60FC00BDB863 /* AllViewController */,
+				48C2E7A021EBBA43005754A2 /* HomeViewController.swift */,
+				483AC0C72210C42B00FFD30C /* MenuViewController.swift */,
+				48C2E7B021EBBFF8005754A2 /* TableViewCell.swift */,
+				48C2E7B221EBC410005754A2 /* Percentages.swift */,
+				48C2E7A521EBBA44005754A2 /* Assets.xcassets */,
+				48C2E7A721EBBA44005754A2 /* LaunchScreen.storyboard */,
+				48C2E7AA21EBBA44005754A2 /* Info.plist */,
+				483AC0C32210BFCB00FFD30C /* FastSegue.h */,
+				483AC0C22210BFCB00FFD30C /* FastSegue.m */,
+				483AC0C12210BFCB00FFD30C /* InfoViewController.h */,
+				483AC0C42210BFCB00FFD30C /* InfoViewController.m */,
+				483AC0C02210BFCA00FFD30C /* Arabic Percentage Calculator-Bridging-Header.h */,
+				48F1B8282238551500B4FCD5 /* GoogleService-Info.plist */,
+			);
+			path = "Arabic Percentage Calculator";
+			sourceTree = "<group>";
+		};
+		601F8FAABB74EB31B2DAEF23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC6689F638220F0C90E968CD /* Pods-Arabic Percentage Calculator.debug.xcconfig */,
+				A995A04A1BED9AB6C28054F8 /* Pods-Arabic Percentage Calculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C2E79A21EBBA43005754A2 /* Arabic Percentage Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C2E7AD21EBBA44005754A2 /* Build configuration list for PBXNativeTarget "Arabic Percentage Calculator" */;
+			buildPhases = (
+				5AA652C0D435D0CF321B416D /* [CP] Check Pods Manifest.lock */,
+				48C2E79721EBBA43005754A2 /* Sources */,
+				48C2E79821EBBA43005754A2 /* Frameworks */,
+				48C2E79921EBBA43005754A2 /* Resources */,
+				976868A20E0E7EB5B3A81B5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arabic Percentage Calculator";
+			productName = "Arabic Percentage Calculator";
+			productReference = 48C2E79B21EBBA43005754A2 /* Arabic Percentage Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C2E79321EBBA43005754A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ebtesam;
+				TargetAttributes = {
+					48C2E79A21EBBA43005754A2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 48C2E79621EBBA43005754A2 /* Build configuration list for PBXProject "Arabic Percentage Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C2E79221EBBA43005754A2;
+			productRefGroup = 48C2E79C21EBBA43005754A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C2E79A21EBBA43005754A2 /* Arabic Percentage Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C2E79921EBBA43005754A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C2E7A921EBBA44005754A2 /* LaunchScreen.storyboard in Resources */,
+				48F1B8292238551600B4FCD5 /* GoogleService-Info.plist in Resources */,
+				48C2E7A621EBBA44005754A2 /* Assets.xcassets in Resources */,
+				48C2E7A421EBBA43005754A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AA652C0D435D0CF321B416D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arabic Percentage Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		976868A20E0E7EB5B3A81B5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arabic Percentage Calculator/Pods-Arabic Percentage Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arabic Percentage Calculator/Pods-Arabic Percentage Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C2E79721EBBA43005754A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483AC0C82210C42B00FFD30C /* MenuViewController.swift in Sources */,
+				4847131D21ECA43A00C69DA4 /* ViewController6.swift in Sources */,
+				48C2E7B121EBBFF8005754A2 /* TableViewCell.swift in Sources */,
+				48A6EB68225AB38900FA5543 /* Functions.swift in Sources */,
+				48C2E7B521EBE7FA005754A2 /* ViewController1.swift in Sources */,
+				483AC0C62210BFCB00FFD30C /* InfoViewController.m in Sources */,
+				4847131721EC9DE200C69DA4 /* ViewController3.swift in Sources */,
+				48C2E7B321EBC410005754A2 /* Percentages.swift in Sources */,
+				4847131B21ECA42E00C69DA4 /* ViewController5.swift in Sources */,
+				488CA48C225C2EA10088168A /* ViewController0.swift in Sources */,
+				4847131F21ECA44500C69DA4 /* ViewController7.swift in Sources */,
+				48A6EB6C225AC92900FA5543 /* Extension.swift in Sources */,
+				48AEFCDE226506D8002F0D9A /* customTextField.swift in Sources */,
+				4847131921ECA41F00C69DA4 /* ViewController4.swift in Sources */,
+				483A7DDD225D042C0068BBB3 /* SlideInTransition.swift in Sources */,
+				48C2E7A121EBBA43005754A2 /* HomeViewController.swift in Sources */,
+				4847132121ECA45300C69DA4 /* ViewController8.swift in Sources */,
+				48C2E79F21EBBA43005754A2 /* AppDelegate.swift in Sources */,
+				483AC0C52210BFCB00FFD30C /* FastSegue.m in Sources */,
+				48C2E7B721EBE811005754A2 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48C2E7A221EBBA43005754A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C2E7A321EBBA43005754A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C2E7A721EBBA44005754A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C2E7A821EBBA44005754A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C2E7AB21EBBA44005754A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48C2E7AC21EBBA44005754A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C2E7AE21EBBA44005754A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6689F638220F0C90E968CD /* Pods-Arabic Percentage Calculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2QT229STK;
+				INFOPLIST_FILE = "Arabic Percentage Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebtesam.Arabic-Percentage-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arabic Percentage Calculator/Arabic Percentage Calculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C2E7AF21EBBA44005754A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A995A04A1BED9AB6C28054F8 /* Pods-Arabic Percentage Calculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2QT229STK;
+				INFOPLIST_FILE = "Arabic Percentage Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebtesam.Arabic-Percentage-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arabic Percentage Calculator/Arabic Percentage Calculator-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C2E79621EBBA43005754A2 /* Build configuration list for PBXProject "Arabic Percentage Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C2E7AB21EBBA44005754A2 /* Debug */,
+				48C2E7AC21EBBA44005754A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C2E7AD21EBBA44005754A2 /* Build configuration list for PBXNativeTarget "Arabic Percentage Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C2E7AE21EBBA44005754A2 /* Debug */,
+				48C2E7AF21EBBA44005754A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C2E79321EBBA43005754A2 /* Project object */;
+}
