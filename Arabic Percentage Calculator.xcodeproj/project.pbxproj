@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		483A7DDD225D042C0068BBB3 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A7DDC225D042C0068BBB3 /* SlideInTransition.swift */; };
-		483AC0C52210BFCB00FFD30C /* FastSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 483AC0C22210BFCB00FFD30C /* FastSegue.m */; };
-		483AC0C62210BFCB00FFD30C /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483AC0C42210BFCB00FFD30C /* InfoViewController.m */; };
 		483AC0C82210C42B00FFD30C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483AC0C72210C42B00FFD30C /* MenuViewController.swift */; };
 		4847131721EC9DE200C69DA4 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131621EC9DE200C69DA4 /* ViewController3.swift */; };
 		4847131921ECA41F00C69DA4 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131821ECA41F00C69DA4 /* ViewController4.swift */; };
@@ -17,10 +14,10 @@
 		4847131D21ECA43A00C69DA4 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131C21ECA43A00C69DA4 /* ViewController6.swift */; };
 		4847131F21ECA44500C69DA4 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131E21ECA44500C69DA4 /* ViewController7.swift */; };
 		4847132121ECA45300C69DA4 /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847132021ECA45300C69DA4 /* ViewController8.swift */; };
+		48867DC02488543400B44498 /* FastSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 48867DBF2488543400B44498 /* FastSegue.m */; };
 		488CA48C225C2EA10088168A /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488CA48B225C2EA10088168A /* ViewController0.swift */; };
 		48A6EB68225AB38900FA5543 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6EB67225AB38900FA5543 /* Functions.swift */; };
 		48A6EB6C225AC92900FA5543 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6EB6B225AC92900FA5543 /* Extension.swift */; };
-		48AEFCDE226506D8002F0D9A /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEFCDD226506D8002F0D9A /* customTextField.swift */; };
 		48C2E79F21EBBA43005754A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2E79E21EBBA43005754A2 /* AppDelegate.swift */; };
 		48C2E7A121EBBA43005754A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2E7A021EBBA43005754A2 /* HomeViewController.swift */; };
 		48C2E7A421EBBA43005754A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C2E7A221EBBA43005754A2 /* Main.storyboard */; };
@@ -35,12 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		483A7DDC225D042C0068BBB3 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		483AC0C02210BFCA00FFD30C /* Arabic Percentage Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arabic Percentage Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
-		483AC0C12210BFCB00FFD30C /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = "../../../../Downloads/LeftToRightSegue-master-2/LeftToRightSegue/InfoViewController.h"; sourceTree = "<group>"; };
-		483AC0C22210BFCB00FFD30C /* FastSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FastSegue.m; path = "../../../../Downloads/LeftToRightSegue-master-2/LeftToRightSegue/FastSegue.m"; sourceTree = "<group>"; };
-		483AC0C32210BFCB00FFD30C /* FastSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FastSegue.h; path = "../../../../Downloads/LeftToRightSegue-master-2/LeftToRightSegue/FastSegue.h"; sourceTree = "<group>"; };
-		483AC0C42210BFCB00FFD30C /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = "../../../../Downloads/LeftToRightSegue-master-2/LeftToRightSegue/InfoViewController.m"; sourceTree = "<group>"; };
 		483AC0C72210C42B00FFD30C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		4847131621EC9DE200C69DA4 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		4847131821ECA41F00C69DA4 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
@@ -48,10 +40,11 @@
 		4847131C21ECA43A00C69DA4 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 		4847131E21ECA44500C69DA4 /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		4847132021ECA45300C69DA4 /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		48867DBE2488542D00B44498 /* FastSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastSegue.h; sourceTree = "<group>"; };
+		48867DBF2488543400B44498 /* FastSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastSegue.m; sourceTree = "<group>"; };
 		488CA48B225C2EA10088168A /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
 		48A6EB67225AB38900FA5543 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		48A6EB6B225AC92900FA5543 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		48AEFCDD226506D8002F0D9A /* customTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
 		48C2E79B21EBBA43005754A2 /* Arabic Percentage Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arabic Percentage Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C2E79E21EBBA43005754A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C2E7A021EBBA43005754A2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -126,24 +119,20 @@
 		48C2E79D21EBBA43005754A2 /* Arabic Percentage Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				483A7DDC225D042C0068BBB3 /* SlideInTransition.swift */,
 				48C2E79E21EBBA43005754A2 /* AppDelegate.swift */,
 				48A6EB6B225AC92900FA5543 /* Extension.swift */,
 				48A6EB67225AB38900FA5543 /* Functions.swift */,
 				48C2E7A221EBBA43005754A2 /* Main.storyboard */,
-				48AEFCDD226506D8002F0D9A /* customTextField.swift */,
 				482F7E9521EE60FC00BDB863 /* AllViewController */,
 				48C2E7A021EBBA43005754A2 /* HomeViewController.swift */,
 				483AC0C72210C42B00FFD30C /* MenuViewController.swift */,
 				48C2E7B021EBBFF8005754A2 /* TableViewCell.swift */,
 				48C2E7B221EBC410005754A2 /* Percentages.swift */,
 				48C2E7A521EBBA44005754A2 /* Assets.xcassets */,
+				48867DBF2488543400B44498 /* FastSegue.m */,
+				48867DBE2488542D00B44498 /* FastSegue.h */,
 				48C2E7A721EBBA44005754A2 /* LaunchScreen.storyboard */,
 				48C2E7AA21EBBA44005754A2 /* Info.plist */,
-				483AC0C32210BFCB00FFD30C /* FastSegue.h */,
-				483AC0C22210BFCB00FFD30C /* FastSegue.m */,
-				483AC0C12210BFCB00FFD30C /* InfoViewController.h */,
-				483AC0C42210BFCB00FFD30C /* InfoViewController.m */,
 				483AC0C02210BFCA00FFD30C /* Arabic Percentage Calculator-Bridging-Header.h */,
 				48F1B8282238551500B4FCD5 /* GoogleService-Info.plist */,
 			);
@@ -283,25 +272,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48867DC02488543400B44498 /* FastSegue.m in Sources */,
 				483AC0C82210C42B00FFD30C /* MenuViewController.swift in Sources */,
 				4847131D21ECA43A00C69DA4 /* ViewController6.swift in Sources */,
 				48C2E7B121EBBFF8005754A2 /* TableViewCell.swift in Sources */,
 				48A6EB68225AB38900FA5543 /* Functions.swift in Sources */,
 				48C2E7B521EBE7FA005754A2 /* ViewController1.swift in Sources */,
-				483AC0C62210BFCB00FFD30C /* InfoViewController.m in Sources */,
 				4847131721EC9DE200C69DA4 /* ViewController3.swift in Sources */,
 				48C2E7B321EBC410005754A2 /* Percentages.swift in Sources */,
 				4847131B21ECA42E00C69DA4 /* ViewController5.swift in Sources */,
 				488CA48C225C2EA10088168A /* ViewController0.swift in Sources */,
 				4847131F21ECA44500C69DA4 /* ViewController7.swift in Sources */,
 				48A6EB6C225AC92900FA5543 /* Extension.swift in Sources */,
-				48AEFCDE226506D8002F0D9A /* customTextField.swift in Sources */,
 				4847131921ECA41F00C69DA4 /* ViewController4.swift in Sources */,
-				483A7DDD225D042C0068BBB3 /* SlideInTransition.swift in Sources */,
 				48C2E7A121EBBA43005754A2 /* HomeViewController.swift in Sources */,
 				4847132121ECA45300C69DA4 /* ViewController8.swift in Sources */,
 				48C2E79F21EBBA43005754A2 /* AppDelegate.swift in Sources */,
-				483AC0C52210BFCB00FFD30C /* FastSegue.m in Sources */,
 				48C2E7B721EBE811005754A2 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

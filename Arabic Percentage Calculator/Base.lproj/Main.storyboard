@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aFb-Mb-1ys">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aFb-Mb-1ys">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -102,7 +102,8 @@
                         <viewLayoutGuide key="safeArea" id="MZ7-Tc-blO"/>
                     </view>
                     <navigationItem key="navigationItem" title="معادلات النسبة المئوية" id="ajN-x2-ac7">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="5Dh-Mm-hXl">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="settingsAsset 1" id="5Dh-Mm-hXl">
+                            <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="-5"/>
                             <connections>
                                 <action selector="didTapMenu:" destination="cPL-EN-Qev" id="bGR-MU-ao5"/>
                             </connections>
@@ -648,7 +649,7 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXF-6M-EFH">
                                         <rect key="frame" x="0.0" y="240" width="275" height="50"/>
-                                        <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.38039215686274508" green="0.81176470588235294" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
                                         <state key="normal" title="من القيمة ؟">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -963,7 +964,7 @@ Firebase Analytics
 إذا كان لديكم أي أسئلة أو اقتراحات حول سياسة الخصوصية الخاصة بنا، فلا تترددوا بالاتصال بنا.</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                         </attributes>
                                     </fragment>
@@ -1473,13 +1474,13 @@ Firebase Analytics
             <point key="canvasLocation" x="-65" y="-1142"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="calculatorIcon" width="512" height="512"/>
         <image name="infoIcon" width="64" height="64"/>
         <image name="mailIcon" width="61" height="64"/>
-        <image name="menu" width="24" height="24"/>
         <image name="privacyPolicyIcon" width="64" height="64"/>
+        <image name="settingsAsset 1" width="45.333332061767578" height="45.333332061767578"/>
         <image name="shareIcon" width="64" height="64"/>
     </resources>
-    <color key="tintColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
