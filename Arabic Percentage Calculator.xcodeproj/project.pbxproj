@@ -15,6 +15,7 @@
 		4847131F21ECA44500C69DA4 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847131E21ECA44500C69DA4 /* ViewController7.swift */; };
 		4847132121ECA45300C69DA4 /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847132021ECA45300C69DA4 /* ViewController8.swift */; };
 		48867DC02488543400B44498 /* FastSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 48867DBF2488543400B44498 /* FastSegue.m */; };
+		48867DC224887B7900B44498 /* ViewControllerOf15%.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48867DC124887B7900B44498 /* ViewControllerOf15%.swift */; };
 		488CA48C225C2EA10088168A /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488CA48B225C2EA10088168A /* ViewController0.swift */; };
 		48A6EB68225AB38900FA5543 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6EB67225AB38900FA5543 /* Functions.swift */; };
 		48A6EB6C225AC92900FA5543 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6EB6B225AC92900FA5543 /* Extension.swift */; };
@@ -42,6 +43,7 @@
 		4847132021ECA45300C69DA4 /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
 		48867DBE2488542D00B44498 /* FastSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastSegue.h; sourceTree = "<group>"; };
 		48867DBF2488543400B44498 /* FastSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastSegue.m; sourceTree = "<group>"; };
+		48867DC124887B7900B44498 /* ViewControllerOf15%.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ViewControllerOf15%.swift"; path = "Arabic Percentage Calculator/ViewControllerOf15%.swift"; sourceTree = SOURCE_ROOT; };
 		488CA48B225C2EA10088168A /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
 		48A6EB67225AB38900FA5543 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		48A6EB6B225AC92900FA5543 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		482F7E9521EE60FC00BDB863 /* AllViewController */ = {
 			isa = PBXGroup;
 			children = (
+				48867DC124887B7900B44498 /* ViewControllerOf15%.swift */,
 				488CA48B225C2EA10088168A /* ViewController0.swift */,
 				48C2E7B421EBE7FA005754A2 /* ViewController1.swift */,
 				48C2E7B621EBE811005754A2 /* ViewController2.swift */,
@@ -120,14 +123,14 @@
 			isa = PBXGroup;
 			children = (
 				48C2E79E21EBBA43005754A2 /* AppDelegate.swift */,
-				48A6EB6B225AC92900FA5543 /* Extension.swift */,
-				48A6EB67225AB38900FA5543 /* Functions.swift */,
-				48C2E7A221EBBA43005754A2 /* Main.storyboard */,
-				482F7E9521EE60FC00BDB863 /* AllViewController */,
 				48C2E7A021EBBA43005754A2 /* HomeViewController.swift */,
 				483AC0C72210C42B00FFD30C /* MenuViewController.swift */,
-				48C2E7B021EBBFF8005754A2 /* TableViewCell.swift */,
+				48A6EB6B225AC92900FA5543 /* Extension.swift */,
+				48A6EB67225AB38900FA5543 /* Functions.swift */,
 				48C2E7B221EBC410005754A2 /* Percentages.swift */,
+				48C2E7B021EBBFF8005754A2 /* TableViewCell.swift */,
+				48C2E7A221EBBA43005754A2 /* Main.storyboard */,
+				482F7E9521EE60FC00BDB863 /* AllViewController */,
 				48C2E7A521EBBA44005754A2 /* Assets.xcassets */,
 				48867DBF2488543400B44498 /* FastSegue.m */,
 				48867DBE2488542D00B44498 /* FastSegue.h */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48867DC02488543400B44498 /* FastSegue.m in Sources */,
+				48867DC224887B7900B44498 /* ViewControllerOf15%.swift in Sources */,
 				483AC0C82210C42B00FFD30C /* MenuViewController.swift in Sources */,
 				4847131D21ECA43A00C69DA4 /* ViewController6.swift in Sources */,
 				48C2E7B121EBBFF8005754A2 /* TableViewCell.swift in Sources */,

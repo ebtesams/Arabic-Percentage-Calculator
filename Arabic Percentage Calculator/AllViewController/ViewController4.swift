@@ -12,7 +12,6 @@ import GoogleMobileAds
 class ViewController4: UIViewController {
     
     @IBOutlet weak var bannerView: GADBannerView!
-    
     @IBOutlet weak var number1: UITextField!
     @IBOutlet weak var number2: UITextField!
     @IBOutlet weak var result: UILabel!
@@ -22,12 +21,9 @@ class ViewController4: UIViewController {
             result.text = String(Functions.Equation(equationNumber: 4 , num1: number1.text! ,num2: number2.text!)) + "%"
         }
     }
-
+    
     override func viewDidLoad() {
         LeftToRigh()
-        //unitAd ID
-        bannerView.adUnitID = "ca-app-pub-3322987272798341/8801395850"
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        unitAdID(BannerView: bannerView)
     }
 }

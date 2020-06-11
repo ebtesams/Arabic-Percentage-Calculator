@@ -119,9 +119,9 @@
                         <segue destination="qVH-9F-ywq" kind="show" identifier="s6" customClass="FastSegue" id="Qb4-mg-GHP"/>
                         <segue destination="teF-jS-d1e" kind="show" identifier="s7" customClass="FastSegue" id="fES-zU-4dT"/>
                         <segue destination="BN1-2X-U8F" kind="show" identifier="s8" customClass="FastSegue" id="AJG-9R-FLp"/>
-                        <segue destination="KGO-sM-par" kind="show" identifier="s0" customClass="FastSegue" id="cOZ-L6-YMC"/>
                         <segue destination="VDl-0q-bP6" kind="show" identifier="aboutUs" id="3JD-in-jc7"/>
                         <segue destination="3ni-jA-2Ny" kind="show" identifier="privacyPolicy" id="ALw-Ww-Gxt"/>
+                        <segue destination="EfN-Mr-kET" kind="show" identifier="tax15" customClass="FastSegue" id="TtY-BH-jC7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kFD-Ax-fkr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1296,7 +1296,7 @@ Firebase Analytics
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="peG-tD-Yj1">
-                                <rect key="frame" x="10" y="98" width="355" height="250"/>
+                                <rect key="frame" x="10" y="54" width="355" height="250"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="AVi-Lq-UYD">
                                         <rect key="frame" x="0.0" y="0.0" width="167.66666666666666" height="250"/>
@@ -1308,7 +1308,7 @@ Firebase Analytics
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2aZ-CO-TBo">
-                                                <rect key="frame" x="0.0" y="51.666666666666657" width="167.66666666666666" height="43"/>
+                                                <rect key="frame" x="0.0" y="51.666666666666671" width="167.66666666666666" height="43"/>
                                                 <color key="tintColor" red="0.49186723999999998" green="0.49853271049999998" blue="0.53265305730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
@@ -1378,7 +1378,7 @@ Firebase Analytics
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Sz-Sb-uIb">
-                                                <rect key="frame" x="0.0" y="51.666666666666657" width="167.33333333333334" height="43"/>
+                                                <rect key="frame" x="0.0" y="51.666666666666671" width="167.33333333333334" height="43"/>
                                                 <color key="tintColor" red="0.49186723999999998" green="0.49853271049999998" blue="0.53265305730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
@@ -1471,12 +1471,366 @@ Firebase Analytics
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iV5-7r-8fy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-65" y="-1142"/>
+            <point key="canvasLocation" x="1423" y="518"/>
+        </scene>
+        <!--View Controller Of15-->
+        <scene sceneID="Yol-s1-8Ir">
+            <objects>
+                <viewController id="EfN-Mr-kET" customClass="ViewControllerOf15_" customModule="Arabic_Percentage_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PvH-vA-IX5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kup-DX-1e6">
+                                <rect key="frame" x="10" y="98" width="355" height="250"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="add-xw-7jz">
+                                        <rect key="frame" x="0.0" y="0.0" width="167.66666666666666" height="250"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" الصافي بدون ضريبة " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUU-sN-CWv">
+                                                <rect key="frame" x="0.0" y="0.0" width="167.66666666666666" height="42.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DI3-ya-6gZ">
+                                                <rect key="frame" x="0.0" y="51.666666666666657" width="167.66666666666666" height="43"/>
+                                                <color key="tintColor" red="0.49186723999999998" green="0.49853271049999998" blue="0.53265305730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKH-LL-7YD">
+                                                <rect key="frame" x="0.0" y="103.66666666666666" width="167.66666666666666" height="42.666666666666657"/>
+                                                <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                                <state key="normal" title="احسب ">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="calculatTotal:" destination="EfN-Mr-kET" eventType="touchUpInside" id="DnY-fv-54i"/>
+                                                    <action selector="output:" destination="BN1-2X-U8F" eventType="touchUpInside" id="Bf1-D1-25E"/>
+                                                </connections>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="5tW-cF-J9s">
+                                                <rect key="frame" x="0.0" y="155.33333333333334" width="167.66666666666666" height="43"/>
+                                                <subviews>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="luJ-uN-82B">
+                                                        <rect key="frame" x="0.0" y="0.0" width="81.666666666666671" height="43"/>
+                                                        <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الضريبة ١٥٪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAe-M3-ouy">
+                                                        <rect key="frame" x="85.666666666666671" y="0.0" width="82.000000000000014" height="43"/>
+                                                        <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Pgg-XM-RNG">
+                                                <rect key="frame" x="0.0" y="207.33333333333331" width="167.66666666666666" height="42.666666666666657"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DLY-m3-mlv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="81.666666666666671" height="42.666666666666664"/>
+                                                        <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الإجمالي مع ١٥٪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CQk-We-42Y">
+                                                        <rect key="frame" x="85.666666666666671" y="0.0" width="82.000000000000014" height="42.666666666666664"/>
+                                                        <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="19"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.76212899550000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="gE1-yF-YbK"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="sB6-Nq-gaf">
+                                        <rect key="frame" x="187.66666666666663" y="0.0" width="167.33333333333337" height="250"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" الإجمالي بالضريبة " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dog-Tq-NaU">
+                                                <rect key="frame" x="0.0" y="0.0" width="167.33333333333334" height="42.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B7o-Th-3LG">
+                                                <rect key="frame" x="0.0" y="51.666666666666657" width="167.33333333333334" height="43"/>
+                                                <color key="tintColor" red="0.49186723999999998" green="0.49853271049999998" blue="0.53265305730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORH-aY-O59">
+                                                <rect key="frame" x="0.0" y="103.66666666666666" width="167.33333333333334" height="42.666666666666657"/>
+                                                <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                                <state key="normal" title="احسب ">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="extractValue:" destination="EfN-Mr-kET" eventType="touchUpInside" id="PyC-va-Qhw"/>
+                                                </connections>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="KUI-rF-tg1">
+                                                <rect key="frame" x="0.0" y="155.33333333333334" width="167.33333333333334" height="43"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tV8-L2-biy">
+                                                        <rect key="frame" x="0.0" y="0.0" width="81.666666666666671" height="43"/>
+                                                        <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الضريبة ١٥٪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0N-zK-f6d">
+                                                        <rect key="frame" x="85.666666666666657" y="0.0" width="81.666666666666657" height="43"/>
+                                                        <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="wny-a1-vjT">
+                                                <rect key="frame" x="0.0" y="207.33333333333331" width="167.33333333333334" height="42.666666666666657"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2oZ-aC-E9E">
+                                                        <rect key="frame" x="0.0" y="0.0" width="81.666666666666671" height="42.666666666666664"/>
+                                                        <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الصافي بدون ١٥٪ " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MaM-sK-T3s">
+                                                        <rect key="frame" x="85.666666666666657" y="0.0" width="81.666666666666657" height="42.666666666666664"/>
+                                                        <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.76212899550000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="Mii-Qd-qA3"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HM2-vY-PbY" customClass="GADBannerView">
+                                <rect key="frame" x="5" y="718" width="365" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="riB-1Q-xrd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4J-zr-o8a">
+                                <rect key="frame" x="10" y="363" width="355" height="112"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kOW-uM-2BW">
+                                        <rect key="frame" x="3" y="8" width="349" height="96"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="hu6-Eh-uk8">
+                                                <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="96"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ikP-Ea-iGy">
+                                                        <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="43.666666666666664"/>
+                                                        <subviews>
+                                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QLV-By-CEW">
+                                                                <rect key="frame" x="0.0" y="0.0" width="80.333333333333329" height="43.666666666666664"/>
+                                                                <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الضريبة ٥٪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfB-a3-Gh1">
+                                                                <rect key="frame" x="84.333333333333343" y="0.0" width="80.333333333333343" height="43.666666666666664"/>
+                                                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="20"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gay-lo-VmL">
+                                                        <rect key="frame" x="0.0" y="52.666666666666686" width="164.66666666666666" height="43.333333333333343"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ypQ-sf-OnV">
+                                                                <rect key="frame" x="0.0" y="0.0" width="80.333333333333329" height="43.333333333333336"/>
+                                                                <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الإجمالي مع ٥٪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Eg0-6J-9oJ">
+                                                                <rect key="frame" x="84.333333333333343" y="0.0" width="80.333333333333343" height="43.333333333333336"/>
+                                                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="19"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="qqE-9h-rUM">
+                                                <rect key="frame" x="184.66666666666663" y="0.0" width="164.33333333333337" height="96"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="osU-B2-7UZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="164.33333333333334" height="43.666666666666664"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0BE-fr-80b">
+                                                                <rect key="frame" x="0.0" y="0.0" width="80" height="43.666666666666664"/>
+                                                                <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الضريبة ٥٪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nos-qb-aKM">
+                                                                <rect key="frame" x="84.000000000000028" y="0.0" width="80.333333333333343" height="43.666666666666664"/>
+                                                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="20"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gfx-kb-MSl">
+                                                        <rect key="frame" x="0.0" y="52.666666666666686" width="164.33333333333334" height="43.333333333333343"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1gm-YW-Pcg">
+                                                                <rect key="frame" x="0.0" y="0.0" width="80" height="43.333333333333336"/>
+                                                                <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الصافي بدون ٥٪ " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0DV-ez-Nrf">
+                                                                <rect key="frame" x="84.000000000000028" y="0.0" width="80.333333333333343" height="43.333333333333336"/>
+                                                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="20"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="kOW-uM-2BW" firstAttribute="top" secondItem="a4J-zr-o8a" secondAttribute="top" constant="8" id="MjL-TT-XFn"/>
+                                    <constraint firstItem="kOW-uM-2BW" firstAttribute="leading" secondItem="a4J-zr-o8a" secondAttribute="leading" constant="3" id="VIw-2c-1Rn"/>
+                                    <constraint firstAttribute="bottom" secondItem="kOW-uM-2BW" secondAttribute="bottom" constant="8" id="kp1-wZ-bUF"/>
+                                    <constraint firstAttribute="height" constant="112" id="lsm-nE-aeH"/>
+                                    <constraint firstAttribute="trailing" secondItem="kOW-uM-2BW" secondAttribute="trailing" constant="3" id="wH0-9X-CCh"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="فارق زيادة الضريبة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtt-wN-iyB">
+                                <rect key="frame" x="122.66666666666669" y="485" width="130" height="40"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FOB-9h-GIs">
+                                <rect key="frame" x="10" y="530" width="355" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Zgy-H7-J9H">
+                                        <rect key="frame" x="0.0" y="0.0" width="167.66666666666666" height="50"/>
+                                        <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wtF-J2-GnZ">
+                                        <rect key="frame" x="187.66666666666663" y="0.0" width="167.33333333333337" height="50"/>
+                                        <color key="backgroundColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="0.199994649" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wHS-tP-dB5"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconfinder_ui_11_3556116" translatesAutoresizingMaskIntoConstraints="NO" id="hjo-eg-Q4Z">
+                                <rect key="frame" x="261.33333333333331" y="485" width="40" height="40"/>
+                                <color key="tintColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="FYz-de-gnh"/>
+                                    <constraint firstAttribute="width" constant="40" id="RaK-KW-FLh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconfinder_ui_11_3556116" translatesAutoresizingMaskIntoConstraints="NO" id="TXo-aG-ltl">
+                                <rect key="frame" x="73.666666666666671" y="485" width="40" height="40"/>
+                                <color key="tintColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="48Z-Qs-ySH"/>
+                                    <constraint firstAttribute="height" constant="40" id="9wy-gZ-6nd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hjo-eg-Q4Z" firstAttribute="centerX" secondItem="wtF-J2-GnZ" secondAttribute="centerX" id="0cy-g8-oWS"/>
+                            <constraint firstItem="kup-DX-1e6" firstAttribute="top" secondItem="JhB-bJ-tqp" secondAttribute="top" constant="10" id="1Tu-p1-cwc"/>
+                            <constraint firstItem="JhB-bJ-tqp" firstAttribute="trailing" secondItem="HM2-vY-PbY" secondAttribute="trailing" constant="5" id="26i-Gp-1Ic"/>
+                            <constraint firstItem="Xtt-wN-iyB" firstAttribute="centerX" secondItem="PvH-vA-IX5" secondAttribute="centerX" id="3t1-rR-IIY"/>
+                            <constraint firstItem="hjo-eg-Q4Z" firstAttribute="centerY" secondItem="Xtt-wN-iyB" secondAttribute="centerY" id="8qn-8O-OEh"/>
+                            <constraint firstItem="FOB-9h-GIs" firstAttribute="centerX" secondItem="PvH-vA-IX5" secondAttribute="centerX" id="9um-hy-FB1"/>
+                            <constraint firstItem="FOB-9h-GIs" firstAttribute="leading" secondItem="JhB-bJ-tqp" secondAttribute="leading" constant="10" id="Chk-uD-UQe"/>
+                            <constraint firstItem="HM2-vY-PbY" firstAttribute="leading" secondItem="JhB-bJ-tqp" secondAttribute="leading" constant="5" id="HaD-xH-N1Y"/>
+                            <constraint firstItem="a4J-zr-o8a" firstAttribute="top" secondItem="kup-DX-1e6" secondAttribute="bottom" constant="15" id="JoB-j8-l9q"/>
+                            <constraint firstAttribute="trailing" secondItem="kup-DX-1e6" secondAttribute="trailing" constant="10" id="KnK-qa-JCz"/>
+                            <constraint firstItem="Xtt-wN-iyB" firstAttribute="top" secondItem="a4J-zr-o8a" secondAttribute="bottom" constant="10" id="Nmo-bt-hMv"/>
+                            <constraint firstItem="TXo-aG-ltl" firstAttribute="centerY" secondItem="Xtt-wN-iyB" secondAttribute="centerY" id="QNT-cw-OaG"/>
+                            <constraint firstItem="a4J-zr-o8a" firstAttribute="leading" secondItem="JhB-bJ-tqp" secondAttribute="leading" constant="10" id="ZB5-j6-lJH"/>
+                            <constraint firstItem="FOB-9h-GIs" firstAttribute="top" secondItem="Xtt-wN-iyB" secondAttribute="bottom" constant="5" id="awt-t6-fJr"/>
+                            <constraint firstItem="TXo-aG-ltl" firstAttribute="centerX" secondItem="Zgy-H7-J9H" secondAttribute="centerX" id="dlo-RS-JmM"/>
+                            <constraint firstItem="hjo-eg-Q4Z" firstAttribute="top" secondItem="a4J-zr-o8a" secondAttribute="bottom" constant="10" id="hWs-9S-mtE"/>
+                            <constraint firstItem="JhB-bJ-tqp" firstAttribute="trailing" secondItem="FOB-9h-GIs" secondAttribute="trailing" constant="10" id="hzQ-Z6-fuu"/>
+                            <constraint firstItem="kup-DX-1e6" firstAttribute="leading" secondItem="PvH-vA-IX5" secondAttribute="leading" constant="10" id="r4M-g9-hyZ"/>
+                            <constraint firstItem="HM2-vY-PbY" firstAttribute="centerX" secondItem="PvH-vA-IX5" secondAttribute="centerX" id="t12-Jx-wKZ"/>
+                            <constraint firstItem="JhB-bJ-tqp" firstAttribute="trailing" secondItem="a4J-zr-o8a" secondAttribute="trailing" constant="10" id="t2h-ix-Ke7"/>
+                            <constraint firstItem="a4J-zr-o8a" firstAttribute="centerX" secondItem="PvH-vA-IX5" secondAttribute="centerX" id="tgb-q4-6ps"/>
+                            <constraint firstItem="HM2-vY-PbY" firstAttribute="bottom" secondItem="JhB-bJ-tqp" secondAttribute="bottom" constant="10" id="zFT-Tt-lCc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JhB-bJ-tqp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gef-EF-zbE"/>
+                    <connections>
+                        <outlet property="Tax15" destination="tV8-L2-biy" id="G7m-gV-WeL"/>
+                        <outlet property="Tax5" destination="0BE-fr-80b" id="Tq6-dO-Koy"/>
+                        <outlet property="bannerView" destination="HM2-vY-PbY" id="Eb7-eQ-TG4"/>
+                        <outlet property="extraDiffNet" destination="Zgy-H7-J9H" id="EiC-uW-lnJ"/>
+                        <outlet property="extraDiffTot" destination="wtF-J2-GnZ" id="a5K-5L-Qde"/>
+                        <outlet property="totalTax15" destination="luJ-uN-82B" id="pcv-it-fOl"/>
+                        <outlet property="totalTax5" destination="QLV-By-CEW" id="fDt-0G-7Az"/>
+                        <outlet property="totalValueWith15" destination="DLY-m3-mlv" id="M9f-Bg-qbh"/>
+                        <outlet property="totalValueWith5" destination="ypQ-sf-OnV" id="ksy-8b-dCc"/>
+                        <outlet property="valueWithTax" destination="B7o-Th-3LG" id="48L-dM-d9W"/>
+                        <outlet property="valueWithout15" destination="2oZ-aC-E9E" id="a1r-01-FL7"/>
+                        <outlet property="valueWithout5" destination="1gm-YW-Pcg" id="YTu-bU-gr1"/>
+                        <outlet property="valueWithoutTax" destination="DI3-ya-6gZ" id="7nx-hq-h0R"/>
+                        <outlet property="viewOffset" destination="a4J-zr-o8a" id="TBe-fb-2TM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WaM-mg-K7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2532" y="517.98029556650249"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.38126039509999998" green="0.81252658369999997" blue="0.72547894719999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="calculatorIcon" width="512" height="512"/>
+        <image name="iconfinder_ui_11_3556116" width="32" height="32"/>
         <image name="infoIcon" width="64" height="64"/>
         <image name="mailIcon" width="61" height="64"/>
         <image name="privacyPolicyIcon" width="64" height="64"/>
