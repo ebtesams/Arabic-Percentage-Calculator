@@ -6,8 +6,10 @@
 //  Copyright © 1440 Ebtesam. All rights reserved.
 //
 
+import GoogleMobileAds
 import UIKit
-import Firebase
+import FirebaseAnalytics
+import FirebaseCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,8 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use Firebase library to configure APIs.
         FirebaseApp.configure()
         
-        // Initialize the Google Mobile Ads SDK.
-        GADMobileAds.configure(withApplicationID: "ca-app-pub-3322987272798341~9554753132")
+       GADMobileAds.sharedInstance().start(completionHandler: nil)
+
+//        var defaults = UserDefaults.standard
+//        var counterAd =  defaults.set(0, forKey: "counterAd")
         
         // Override point for customization after application launch.
         return true

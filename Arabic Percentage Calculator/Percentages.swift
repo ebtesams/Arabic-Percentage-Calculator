@@ -8,12 +8,8 @@
 
 import UIKit
 
-class Percentages {
-    var name:String?
-    var equation:String?
-    init(name:String, equation:String) {
-        self.name = name
-        self.equation = equation
-    }
+struct Percentages {
+    var name:String
+    var equation:String
 }
 

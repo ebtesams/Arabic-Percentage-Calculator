@@ -6,6 +6,7 @@ target 'Arabic Percentage Calculator' do
   use_frameworks!
 
   # Pods for Arabic Percentage Calculator
-pod 'Firebase/Core'
-pod 'Firebase/AdMob'
+pod 'Google-Mobile-Ads-SDK'
+pod 'FirebaseAnalytics'
+
 end

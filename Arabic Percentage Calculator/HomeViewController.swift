@@ -6,125 +6,72 @@
 //  Copyright © 1440 Ebtesam. All rights reserved.
 //
 
-import UIKit
 import GoogleMobileAds
+import UIKit
 import MessageUI
 
-class HomeViewController: UIViewController  {
+class HomeViewController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     //Create an interstitial ad object
-    var interstitial: GADInterstitial!
+    private var interstitial: GADInterstitialAd?
     
-    var topView: UIView?
-    var equation = Array<Percentages>()
-    
-    @IBOutlet weak var tabView: UITableView!
+    var equations = [
+        Percentages(name: "حساب القيمة المضافة ١٥٪" , equation: "س + ((٠٫١٥)س)"),
+        Percentages(name: "نسبة ٪ القيمة" , equation: "س(ص/١٠٠)"),
+        Percentages(name: "نسبة ٪ التغير" , equation: "((ص - س)/س)١٠٠"),
+        Percentages(name: "قيمة أ هي ب٪ من؟ ", equation: "(س*١٠٠)/ص"),
+        Percentages(name: "نسبة ٪ قيمة من قيمة" , equation: "س(ص/١٠٠)"),
+        Percentages(name: "الزيادة بنسبة ٪ " , equation: "س + ((ص/١٠٠)س)"),
+        Percentages(name: "النقصان بنسبة ٪ " , equation: "س - ((ص/١٠٠)س)"),
+        Percentages(name: "بعد الخصم ٪" , equation: "س /((١٠٠ - ص)/١٠٠)"),
+        Percentages(name: "بعد الاضافة ٪" , equation: "س /((١٠٠ + ص)/١٠٠)")
+    ]
+    var counterAd = 0
+    var defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
         //Load an ad
-        interstitial = createAndLoadInterstitial()
+        loadInterstitial()
         //to hide the default back swipe
         navigationController?.interactivePopGestureRecognizer?.isEnabled = false
         
-        //equation.append(Percentages(name: "حساب القيمة المضافة ٥٪" , equation: "س + ((٠٫٠٥)س)"))
-        equation.append(Percentages(name: "حساب القيمة المضافة ٥٪ و ١٥٪" , equation: "س + ((٠٫٠٥)س) | س + ((٠٫١٥)س)"))
-        equation.append(Percentages(name: "نسبة ٪ القيمة" , equation: "س(ص/١٠٠)"))
-        equation.append(Percentages(name: "نسبة ٪ التغير" , equation: "((ص - س)/س)١٠٠"))
-        equation.append(Percentages(name: "قيمة أ هي ب٪ من؟ ", equation: "(س*١٠٠)/ص"))
-        equation.append(Percentages(name: "نسبة ٪ قيمة من قيمة" , equation: "س(ص/١٠٠)"))
-        equation.append(Percentages(name: "الزيادة بنسبة ٪ " , equation: "س + ((ص/١٠٠)س)"))
-        equation.append(Percentages(name: "النقصان بنسبة ٪ " , equation: "س - ((ص/١٠٠)س)"))
-        equation.append(Percentages(name: "بعد الخصم ٪" , equation: "س /((١٠٠ - ص)/١٠٠)"))
-        equation.append(Percentages(name: "بعد الاضافة ٪" , equation: "س /((١٠٠ + ص)/١٠٠)"))
-        
-    }
-    override func viewWillAppear(_ animated: Bool) {
-        //Show the ad
-        if interstitial.isReady {
-            interstitial.present(fromRootViewController: self)
-        }
-    }
-    
-    
-    @IBAction func didTapMenu(_ sender: UIBarButtonItem) {
-        guard let menuViewController = storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController else { return }
-        menuViewController.didTapMenuType = { menuType in
-            self.transitionToNew(menuType)
-        }
-        menuViewController.modalPresentationStyle = .overCurrentContext
-        present(menuViewController, animated: true)
-    }
-    
-    func transitionToNew(_ menuType: MenuType) {
-        
-        topView?.removeFromSuperview()
-        switch menuType {
-        case .Home:
-            dismiss(animated: true, completion: nil)
-        case .aboutUs:
-            performSegue(withIdentifier: "aboutUs", sender: nil)
-        case .privacyPolicy:
-            performSegue(withIdentifier: "privacyPolicy", sender: nil)
-        case .shareApp :
-            let firstActivityItem = " تطبيق الحسابات المئوية تطبيق يحتوي على معادلات تخص النسبة المئوية والتى تحتاجها باستمرار و في خطوات بسيطة جدا"
-            let secondActivityItem : NSURL = NSURL(string: "itms-apps://itunes.apple.com/app/bars/id1456324528")!
-            
-            let activityViewController : UIActivityViewController = UIActivityViewController(
-                activityItems: [firstActivityItem, secondActivityItem], applicationActivities: nil)
-            
-            self.present(activityViewController, animated: true, completion: nil)
-            
-        case .contact :
-            
-            if !MFMailComposeViewController.canSendMail() {
-                print("Mail services are not available")
-                return
-            }
-            sendEmail()
-            
-        default:
-            break
-        }
+        counterAd = defaults.integer(forKey: "counterAd")
     }
 }
 
-
-
-// MARK:- UITableViewDataSource
+// MARK: -UITableViewDataSource
 
 extension HomeViewController : UITableViewDataSource {
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return equation.count
-    }
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 10
-    }
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = UIView()
-        headerView.backgroundColor = UIColor.clear
-        return headerView
-    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        equations.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let Cell:MyTableViewCell = tabView.dequeueReusableCell(withIdentifier: "cell") as! MyTableViewCell
-        Cell.labName.text = equation[indexPath.section].name
-        Cell.labEquation.text = equation[indexPath.section].equation
-        Cell.layer.cornerRadius = 15
+        let Cell:EquationsCell = tableView.dequeueReusableCell(withIdentifier: "cell") as! EquationsCell
+        Cell.labName.text = equations[indexPath.row].name
+        Cell.labEquation.text = equations[indexPath.row].equation
         return Cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        70
     }
 }
 
-// MARK:- UITableViewDelegate
+// MARK: -UITableViewDelegate
 
 extension HomeViewController : UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        switch indexPath.section {
+        switch indexPath.row {
         case 0:
-            performSegue(withIdentifier: "tax15", sender: nil)
+            performSegue(withIdentifier: "s0", sender: nil)
         case 1:
             performSegue(withIdentifier: "s1", sender: nil)
         case 2:
@@ -142,49 +89,61 @@ extension HomeViewController : UITableViewDelegate {
         default:
             performSegue(withIdentifier: "s8", sender: nil)
         }
-        //        //Show the ad
-        //        if interstitial.isReady {
-        //            interstitial.present(fromRootViewController: self)
-        //        }
-    }
-}
-
-
-// MARK:- GADInterstitialDelegate
-
-extension HomeViewController : GADInterstitialDelegate {
-    //Use GADInterstitialDelegate to reload
-    func createAndLoadInterstitial() -> GADInterstitial {
-        // test adUnitID: "ca-app-pub-3940256099942544/4411468910"
-        // "ca-app-pub-3322987272798341/4629019074"
-        let interstitial = GADInterstitial(adUnitID: "ca-app-pub-3322987272798341/4629019074")
-        interstitial.delegate = self
-        interstitial.load(GADRequest())
-        return interstitial
-    }
-    
-    func interstitialDidDismissScreen(_ ad: GADInterstitial) {
-        interstitial = createAndLoadInterstitial()
-    }
-}
-
-// MARK:- MFMailComposeViewControllerDelegate
-
-extension HomeViewController:MFMailComposeViewControllerDelegate {
-    func sendEmail(){
-        let composeVC = MFMailComposeViewController()
-        composeVC.mailComposeDelegate = self
-        // Configure the fields of the interface.
-        composeVC.setToRecipients(["customer.supnsug@outlook.com"])
-        composeVC.setSubject("تطبيق الحسابات المئوية")
         
-        // Present the view controller modally.
-        self.present(composeVC, animated: true, completion: nil)
-    }
-    func mailComposeController(_ controller: MFMailComposeViewController,didFinishWith result: MFMailComposeResult, error: Error?) {
-        // Check the result or perform other tasks.
-        // Dismiss the mail compose view controller.
-        controller.dismiss(animated: true)
+        if counterAd == 7 {
+            //Show the ad
+            if interstitial != nil {
+                loadInterstitial()
+                interstitial!.present(fromRootViewController: self)
+            } else {
+                print("Ad wasn't ready")
+            }
+            counterAd = 0
+            defaults.set(counterAd, forKey: "counterAd")
+        }
+        counterAd += 1
+        defaults.set(counterAd, forKey: "counterAd")
     }
     
 }
+
+
+// MARK: -GADInterstitialDelegate
+
+extension HomeViewController : GADFullScreenContentDelegate {
+    
+    func loadInterstitial() {
+        // test "ca-app-pub-3940256099942544/4411468910"
+       
+        let request = GADRequest()
+        GADInterstitialAd.load(withAdUnitID:"ca-app-pub-3322987272798341/4357932548" ,
+                               request: request)
+        { [self] ad, error in
+            if let error = error {
+                print("Failed to load interstitial ad with error: \(error.localizedDescription)")
+                return
+            }
+            interstitial = ad
+            interstitial?.fullScreenContentDelegate = self
+        }
+    }
+    
+    
+    /// Tells the delegate that the ad failed to present full screen content.
+    func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
+        print("Ad did fail to present full screen content.")
+    }
+    
+    /// Tells the delegate that the ad will present full screen content.
+    func adWillPresentFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+        print("Ad will present full screen content.")
+    }
+    
+    /// Tells the delegate that the ad dismissed full screen content.
+    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+        print("Ad did dismiss full screen content.")
+        //loadInterstitial()
+    }
+    
+}
+

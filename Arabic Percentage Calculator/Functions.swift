@@ -17,25 +17,28 @@ class Functions {
     static func Equation (equationNumber: Int , num1 : String , num2 :String) -> (Double) {
         let formatterAR: NumberFormatter = NumberFormatter()
         let formatterEN: NumberFormatter = NumberFormatter()
+        
         formatterAR.locale = Locale(identifier: "AR")
         formatterEN.locale = Locale(identifier: "EN")
-        let doubleNumber1:Double!
-        let doubleNumber2:Double!
-        if let final1 = formatterAR.number(from: num1) {
-            doubleNumber1 = Double(final1)
+        
+        var doubleNumber1:Double?
+        var doubleNumber2:Double?
+        
+        if let formatterNum1 = formatterAR.number(from: num1) {
+            doubleNumber1 = Double(truncating: formatterNum1)
         }
-        else{
-            let final1 = formatterEN.number(from: num1)
-            doubleNumber1 = Double(final1!)
+        else if let formatterNum1 = formatterEN.number(from: num1) {
+            doubleNumber1 = Double(truncating: formatterNum1)
         }
         
-        if let final2 = formatterAR.number(from: num2) {
-            doubleNumber2 = Double(final2)
+        if let formatterNum2 = formatterAR.number(from: num2) {
+            doubleNumber2 = Double(truncating: formatterNum2)
         }
-        else{
-            let final2 = formatterEN.number(from: num2)
-            doubleNumber2 = Double(final2!)
+        else if let formatterNum2 = formatterEN.number(from: num2) {
+            doubleNumber2 = Double(truncating: formatterNum2)
         }
+        
+        if let doubleNumber1 = doubleNumber1 , let doubleNumber2 = doubleNumber2 {
             switch equationNumber {
                 case 1 :
                 output = (doubleNumber2/100) * doubleNumber1
@@ -55,7 +58,10 @@ class Functions {
                 output = doubleNumber1 / ((100 + doubleNumber2) / 100)
                 default:
                 print("error")
+                output = 0
             }
-       return output!
+        }
+       return output ?? 0
     }
 }
+
